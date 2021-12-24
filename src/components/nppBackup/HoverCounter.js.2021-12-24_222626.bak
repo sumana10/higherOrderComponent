@@ -7,4 +7,4 @@ const HoverCounter = ({ count, incrementCountHandler, styleX }) =>{
     )
 }
 
-export default UpdatedComponent(HoverCounter, 10);
+export default UpdatedComponent(HoverCounter);

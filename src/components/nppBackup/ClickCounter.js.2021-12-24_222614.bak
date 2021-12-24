@@ -11,4 +11,4 @@ const ClickCounter = ({count, incrementCountHandler, styleX}) =>{
 }
 
 
-export default UpdatedComponent(ClickCounter, 5);
+export default UpdatedComponent(ClickCounter);

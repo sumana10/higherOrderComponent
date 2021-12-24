@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 
-const UpdatedComponent = (OriginalComponent, incrementNumber) =>{
+const UpdatedComponent = OriginalComponent =>{
     
     
     const NewComponent = () =>{
@@ -15,12 +15,11 @@ const UpdatedComponent = (OriginalComponent, incrementNumber) =>{
         }
 
       const incrementCountHandler = () =>{
-          setCount(count + incrementNumber)
+          setCount(count + 1)
       }
         return (
             
             <OriginalComponent count={count} incrementCountHandler={incrementCountHandler} styleX={styleX}/>
-				
         )
     }
     return NewComponent;
